@@ -1,5 +1,6 @@
 import React from "react";
 import "./BgVideo.css";
+import { Button } from "@mui/material";
 const BgVideo = () => {
   return (
     <div className="full-bg">
@@ -12,7 +13,7 @@ const BgVideo = () => {
       <div class="content">
         <h1>Real-time rendering in a browser</h1>
         <p>Turn architectural 3D models into online walkthroughs.</p>
-        <button>Start Free Trail</button>
+        <Button variant="contained" color="success">Start Free Trail</Button>
       </div>
     </div>
   );
