@@ -18,7 +18,7 @@ import Testimonials from '../components/Testimonials';
 import FAQ from '../components/FAQ';
 import Footer from '../components/Footer';
 import AppAppBar from '../components/AppAppBar';
-import getLPTheme from '@/theme/getLPTheme';
+import getLPTheme from '../theme/getLPTheme';
 
 function ToggleCustomTheme({ showCustomTheme, toggleCustomTheme }) {
   return (
