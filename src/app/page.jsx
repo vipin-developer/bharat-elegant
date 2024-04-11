@@ -95,6 +95,10 @@ export default function Home() {
         <Divider />
         <Footer />
       </Box>
+      {/* <ToggleCustomTheme
+        showCustomTheme={showCustomTheme}
+        toggleCustomTheme={toggleCustomTheme}
+      /> */}
     </ThemeProvider>
   );
 }
