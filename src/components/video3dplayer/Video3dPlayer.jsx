@@ -1,12 +1,13 @@
 "use client";
-import "aframe";
-import { Entity, Scene } from "aframe-react";
+
+import { Scene } from "aframe-react";
 import React, { useEffect, useRef } from "react";
 
 const Video3dPlayer = ({ videoUrl }) => {
   const videoRef = useRef();
 
   useEffect(() => {
+    import("aframe");
     // Add any necessary initialization or event handling here
   }, []);
 
