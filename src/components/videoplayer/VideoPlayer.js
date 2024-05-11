@@ -3,7 +3,7 @@
 import { Scene } from "aframe-react";
 import React, { useEffect, useRef } from "react";
 
-const Video3dPlayer = ({ videoUrl }) => {
+const VideoPlayer = ({ videoUrl }) => {
   const videoRef = useRef();
 
   useEffect(() => {
@@ -53,4 +53,4 @@ const Video3dPlayer = ({ videoUrl }) => {
   );
 };
 
-export default Video3dPlayer;
+export default VideoPlayer;

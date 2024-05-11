@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Video3dPlayer from "../../components/video3dplayer/video3dPlayer";
+import VideoPlayer from "../../components/videoplayer/VideoPlayer";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import {
@@ -96,7 +96,7 @@ const three60Videos = () => {
           aria-describedby="modal-modal-description"
         >
           <Box>
-            <Video3dPlayer videoUrl={video} />
+            <VideoPlayer videoUrl={video} />
           </Box>
         </Modal>
       </div>
