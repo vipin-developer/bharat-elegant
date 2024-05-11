@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Video3dPlayer from "../../components/video3dplayer/video3dPlayer";
+import Video3dPlayer from "@components/video3dplayer/video3dPlayer";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import {
@@ -12,8 +12,8 @@ import {
   Modal,
 } from "@mui/material";
 import styles from "./page.module.css";
-import Footer from "../../components/footer/Footer";
-import AppAppBar from "../../components/appappbar/AppAppBar";
+import Footer from ".@components/footer/Footer";
+import AppAppBar from "@components/appappbar/AppAppBar";
 const three60Videos = () => {
   const [modal, setModal] = useState(false);
   const [video, setCurrentVideo] = useState(false);
