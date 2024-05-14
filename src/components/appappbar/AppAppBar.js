@@ -229,7 +229,7 @@ function AppAppBar({ mode, toggleColorMode, showLinks }) {
                       color="primary"
                       variant="outlined"
                       component="a"
-                      href="/material-ui/getting-started/templates/sign-in/"
+                      href="/login"
                       target="_blank"
                       sx={{ width: "100%" }}
                     >
