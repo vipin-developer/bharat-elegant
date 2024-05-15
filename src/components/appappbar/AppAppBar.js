@@ -148,8 +148,7 @@ function AppAppBar({ mode, toggleColorMode, showLinks }) {
                 variant="text"
                 size="small"
                 component="a"
-                href="/material-ui/getting-started/templates/sign-in/"
-                target="_blank"
+                href="/login"
               >
                 Sign in
               </Button>
